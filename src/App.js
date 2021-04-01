@@ -1,11 +1,10 @@
-import logo from './logo.svg';
+import React from 'react'; 
 import './App.css';
-import Jumbotron from './componentes/jumbotron';
 
-function App() {
+
+const App = ()=> {
   return (
-    
-  <Jumbotron/>
+<h1> Hola mundo </h1>
   )
 }
 
