@@ -1,10 +1,12 @@
-import React from 'react'; 
+import React from 'react';
+import Jumbotron from "./componentes/Jumbotron";
 import './App.css';
+import "./componentes/Jumbotron.css"
 
 
-const App = ()=> {
+const App = () => {
   return (
-<h1> Hola mundo </h1>
+    <Jumbotron />
   )
 }
 
