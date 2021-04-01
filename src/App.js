@@ -1,12 +1,16 @@
 import React from 'react';
-import Jumbotron from "./componentes/Jumbotron";
+import Header from "./componentes/Header";
 import './App.css';
-import "./componentes/Jumbotron.css"
+import "./componentes/Header.css";
 
 
 const App = () => {
   return (
-    <Jumbotron />
+    <>
+      <div className="container">
+        <Header />
+      </div>
+    </>
   )
 }
 
